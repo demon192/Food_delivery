@@ -19,7 +19,7 @@ connectDB();
 
 
 // api endpoints
-app.use("api/food", foodRouter)
+app.use("/api/food", foodRouter)
 
 app.get("/",(req,res)=>{
     res.send("API Working")
